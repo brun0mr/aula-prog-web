@@ -70,7 +70,7 @@ body, ul, li ,p, a {
 
   
 
-  input[type=submit] {
+  input[type=submit],input[type=reset] {
     border: 1px solid #707070;
     padding: 16px 32px;
     text-decoration: none;
@@ -80,7 +80,7 @@ body, ul, li ,p, a {
     background-color: #fff;
     color: #707070;
   }
-  input[type=text] {
+  input[type=text],textarea {
     width: 700px;
     padding: 12px;
     border: 1px solid #707070;
